@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+<header class="cabecero">
+    <h1>Calculadora Figuras Geometricas</h1>
+</header>
+
+<main>
+    <div class="div1">
+        <h2 class="titulo">Cuadrado</h2>
+        <h2>¿Cuanto mide cada lado en cm?</h2>
+        
+        <input type="number" placeholder="  Ingrese los datos" id="input-cuadrado">
+        <div class="contenedor-btn">
+            <button class="btn" id="btn-perimetro" onclick="calcularPerimetro()">Perimetro</button>
+            <button class="btn" onclick="calcularAreaCuadrado()">Area</button>
+        </div>
+
+        <div class="conenedor-resultado">
+            <h2 id="rta-cuadrado"></h2>
+        </div>
+
+    </div>
+
+    <div class="div1">
+        <h2 class="titulo">Circulo</h2>
+        <h2>¿Cuanto mide el radio del circulo?</h2>
+        
+        <input type="number" placeholder="  Ingrese radio"  id="input-radio">
+        <div class="contenedor-btn">
+            <button class="btn" onclick="perimetroCirculo()">Perimetro</button>
+            <button class="btn">Diametro</button>
+            <button class="btn">Area</button>
+        </div>
+
+        <div class="conenedor-resultado">
+            <h2 id="rta-circulo"></h2>
+        </div>
+
+    </div>
+
+
+
+    <div class="div1">
+        <h2 class="titulo">Triangulo</h2>
+        <h2>¿Cuanto mide Cada lado de tu Triangulo?</h2>
+        <div class="contenedor-input">
+        <input type="number" placeholder="  Ingrese lado 1">
+        <input type="number" placeholder="  Ingrese lado 2">
+        <input type="number" placeholder="  Ingrese lado 3">
+        </div>
+        
+        <div class="contenedor-btn">
+            <button class="btn">Perimetro</button>
+            <h2>¿Cuanto mide base y altura de tu Triangulo?</h2>
+            <input type="number" placeholder="  Ingrese lado 2">
+            <input type="number" placeholder="  Ingrese lado 3">
+            <button class="btn-area">Area</button>
+            
+        </div>
+
+        <div class="conenedor-resultado">
+            <h2 class="t2">el area del Triangulo  es 599 mts?</h2>
+        </div>
+
+    </div>
+
+
+</main>
+
+<footer class="pie">
+    <div class="pie2">
+        <div> <h2>Realizado por © Néstor Martínez</h2></div>
+        
+        <div class="imagenes-con">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/bxl-facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/bxl-instagram.svg" alt=""></a>
+            <a href="https://twitter.com/" target="_blank"><img src="img/bxl-twitter.svg" alt=""></a>
+            <a href="https://github.com/nestor12m?tab=repositories" target="_blank"><img src="img/github.svg" alt=""></a>
+           
+            
+        
+            
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+ --colorheader:#13fd0b;
+}
+body{
+    background-color: #cad5e0;
+}
+.cabecero{
+    background-color:var(--colorheader);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+h1{
+    padding: 10px; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    border-radius: 8px;
+    border: 2px solid rgb(8, 8, 8);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 310px;
+    height: 590px;
+    gap: 10px;
+    
+
+}
+
+.titulo{
+    border-radius: 8px 8px 0 0;
+    background-color: var(--colorheader);
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -0px;
+}
+
+input{
+    margin-top: 10px;
+    height: 32px;
+    width: 70%;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+h2{
+    text-align: center;
+    
+}
+.t2{
+    margin-bottom: 80px;
+}
+
+.contenedor-btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.btn:hover{
+    background-color: #58df2f;
+}
+
+.btn:active{
+    background-color: var(--colorheader);
+}
+.btn{
+    
+    background-color: var(--colorheader);
+    color: #fff;
+    width: 120px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+.btn-area{
+    margin-top: 10px;
+    background-color: var(--colorheader);
+    color: #fff;
+    width: 120px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+}
+.contenedor-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conenedor-resultado{
+    margin-top: 8px;
+    width: 90%;
+    text-align: center;
+}
+
+.conenedor-resultado h2{
+    color:red;
+    font-size: 27px;
+
+}
+
+.pie{
+    background-color: var(--colorheader);
+    height: 120px;
+    margin-top: 70px;
+    font-size: 23px;
+   
+}
+.pie h2{
+    font-size: 20px;
+}
+.pie2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    padding-top: 30px;
+
+}
+.imagenes-con img{
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+}
+
+@media(min-width:940px){
+    main{
+        flex-direction: row;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}
